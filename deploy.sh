@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker login -u sumithrasatish -p dckr_pat_1xGH84SmTkZ0R-CBCTQKOHn_V4E
+docker login -u -p $dockerhub
 
 docker tag my-nodejs-app sumithrasatish/dev
 
