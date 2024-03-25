@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nodejs-app: Firstproject
+    image: my-nodejs-app
+    container_name: project 
+    ports:
+      - '80:80'
