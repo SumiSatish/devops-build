@@ -2,6 +2,6 @@
 
 docker login -u $username -p $password
 
-docker tag my-nodejs-app sumithrasatish/dev
+docker tag my-nodejs-app sumithrasatish/prod
 
-docker push sumithrasatish/dev
+docker push sumithrasatish/prod
